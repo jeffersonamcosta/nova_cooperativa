@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Teste Desenvolvedor 2021</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="divbanner">
+            <img src="imgs/logo.png" class="formspace"></br>
+
+            <h1 class="formspace" id="banner_titulo"> CRIE SEU E-COMMERCE</h1>
+            <p><b>Chegou a hora de criar seu ecommerce com os especialistas da SmileShop.</b></p>
+            <p>Preencha o formulário abaixo que um consultor entrará em contato!</p>
+
+            <img src="imgs/celular.png" class="formspace">
+        </div>
+        <div id="divform">
+
+            <form class="formspace">
+                <script src="validacao.js"></script>
+                <label for="nome" class="labelspace"> Nome
+                    <br><input type="text" name="nome" id="nome" class="formstyle"
+                        pattern="[a-zA-Z\u00C0-\u00FF ]{1,60}" required>
+                </label>
+                <br>
+                <label for="email" class="labelspace"> E-mail
+                    <br> <input type="email" name="email" id="email" class="formstyle" maxlength="100"
+                        pattern="[\w\@\.]{1,100}" required>
+                </label>
+                <br>
+                <label for="tel" class="labelspace"> Whatsapp
+                    <br><input type="tel" name="tel" id="tel" class="formstyle" pattern="[0-9]{11}" required>
+                </label>
+                <br>
+
+                <label for="autorizacao_contato" class="labelspace" id="labelradio">
+                    <input type="radio" id="autorizacao_contato" name="autorizacao_contato" class="radio">
+                    Eu autorizo um consultor da Smile entrar em contato via Whatsapp
+
+                </label>
+
+                <br>
+                <label class="labelspace">
+                    <input type="submit" value="ENVIAR" class="submitstyle" id="submit">
+                </label>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
