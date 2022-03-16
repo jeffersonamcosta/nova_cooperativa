@@ -34,6 +34,3 @@ As regras abaixo devem ser seguidas no envio do formulário:
 
 Ao codificar o sistema, procure pensar nas possibilidades de outra pessoa ter de realizar alguma manutenção no sistema, seja de erros, novas implementações ou ajustes com base nos desejos do cliente, assim o sistema deverá ser legível a outro desenvolvedor e passível de alteração rapidamente.
 
-**Orientações:** Antes de começar o teste, crie um repositório no BitBucket (cadastro gratuito) e dê permissão para caique@consultornet.com.br e carlos.sordi@consultornet.com.br, assim poderemos avaliar seu progresso durante o desenvolvimento, em seguida pode iniciar o teste normalmente, lembrando de executar commits a cada etapa finalizada para organização no andamento do teste.
-
-
