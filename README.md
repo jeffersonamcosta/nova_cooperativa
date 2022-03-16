@@ -1,49 +1,39 @@
-<<<<<<< HEAD
-# nova_cooperativa
-=======
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+﻿**Teste Desenvolvedor 2021**
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+**Objetivo:** Desenvolver uma Landing Page com envio e armazenamento dos dados do formulário de contato, em JavaScript/TypeScript (ES6), PHP 5 ou 7 ou NodeJS (sem frameworks), e MySQL.
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+**Detalhes:** A Landing Page deverá seguir o design da prévia abaixo: [**DEV 2021 (cnweb.com.br)**](http://www.cnweb.com.br/previas/dev2021/)
 
----
+[*Imagens utilizadas na Landing Page*](http://www.cnweb.com.br/previas/dev2021/imgs.zip)
 
-## Edit a file
+*Fonte utilizada da Landing Page [https://fonts.google.com/specimen/Montserrat ](https://fonts.google.com/specimen/Montserrat)Observação:Caso tenha interesse em baixar o layout em PSD,c[lique aqui!*](http://www.cnweb.com.br/previas/dev2021/layout-landingpage.psd)*
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+**Regras:**
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+As regras abaixo devem ser seguidas no envio do formulário:
 
----
+1. O campo Nome só poderá aceitar letras, acentos e espaço, tendo um tamanho máximo de 60 caracteres.
+1. O campo Email só poderá aceitar letras (sem acentos), números, “@”, ” \_” e “.”, tendo um tamanho máximo de 100 caracteres.
+1. O campo de Whatsapp só poderá aceitar números e deverá ter uma máscara de entrada no formato “(99) 9 9999-9999”.
+1. Todos os campos deverão ser obrigatórios.
+1. Todas as chamadas devem ser feitas via Ajax/Fetch.
+1. A página deverá ser responsiva.
 
-## Create a file
+**Opcionais:**
 
-Next, you’ll add a new file to this repository.
+1. Utilizar ReactJS e/ou jQuery para compor a interface.
+1. Utilizar TypeScript no desenvolvimento da página.
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+**Avaliação:** Serão considerados meios de avaliação conforme abaixo:
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
+1. Código compacto
+1. Código reutilizável e implementação transparente.
+1. Desenvolvimento orientado a objetos (opcional, porém preferível)
+1. Nomenclatura das variáveis coerentes, porém sem perder a compactação do código.
+1. Todas as funcionalidades devem fluir corretamente sem nenhum engasgo ou erro de execução.
 
----
+Ao codificar o sistema, procure pensar nas possibilidades de outra pessoa ter de realizar alguma manutenção no sistema, seja de erros, novas implementações ou ajustes com base nos desejos do cliente, assim o sistema deverá ser legível a outro desenvolvedor e passível de alteração rapidamente.
 
-## Clone a repository
+**Orientações:** Antes de começar o teste, crie um repositório no BitBucket (cadastro gratuito) e dê permissão para caique@consultornet.com.br e carlos.sordi@consultornet.com.br, assim poderemos avaliar seu progresso durante o desenvolvimento, em seguida pode iniciar o teste normalmente, lembrando de executar commits a cada etapa finalizada para organização no andamento do teste.
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
 
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
->>>>>>> master
